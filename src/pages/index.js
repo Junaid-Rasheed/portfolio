@@ -1,5 +1,11 @@
 import React from "react"
+import Routing from "../Components/Routing"
 
 export default function Home() {
-  return <div>Hello world!</div>
+
+  return (
+    <div>
+   <Routing />
+    </div>
+  )
 }

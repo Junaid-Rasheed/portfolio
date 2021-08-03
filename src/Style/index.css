@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap");
+.nav-bar-link {
+  text-underline-offset: none;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  
+  font-size: large;
+}
+/* #f6f2e9; */
+body {
+  height: 100%;
+  /* background-color: #fdf8ed; */
+  background-color:#f6f2e9;
+  color: black
+
+ 
+}
+
+.work-git{
+  font-family: "Rokkitt", serif;
+  padding: 10px;
+  color: black;
+}
+.home-field-tag {
+  font-family: "Orbitron", sans-serif;
+  padding-bottom: 15px;
+}
+.home-name-tag {
+  font-family: "Rokkitt", serif;
+  padding-bottom: 12px;
+}
+.home-info-tag{
+  font-family: "Rokkitt", serif;
+}
+
+.first-col {
+  padding-top: 8%;
+  font-family: "Rokkitt", serif;
+  padding-bottom: 12px;
+}
+
+a {
+  color:inherit;
+}
+.about-info{
+  font-family: "Rokkitt", serif;
+}
+
+.image{
+  height: 10%;
+  background-image: url('/picture.png');
+}
+
+/* .test {
+  min-height: 92vh;
+  background-image: url("/picture.png");
+  background-size: cover;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+/* img:hover {
+  transform: scaleX(-1);
+} */
+ 
+
+  img:hover {
+  border: none;
+  box-shadow: 0 0 10px #91b655 inset;
+  }
+
+.btn{
+  font-size: large;
+}
+
+  .btn:hover{
+    color: black;
+    background-color: #91b655;
+  }
+
+  
