@@ -1,8 +1,12 @@
 import * as React from "react"
 import { Container, Row, Col } from "react-bootstrap"
+import Navbarpage from '../Components/Navbarpage'
 function About() {
   return (
+    <div>
+    <Navbarpage />
     <Container>
+     
       <Row>
         <Col xs={12} md={7} sm={12} lg={7} className="first-col">
           <div className="about-info">
@@ -30,6 +34,7 @@ function About() {
        
       </Row>
     </Container>
+    </div>
   )
 }
 

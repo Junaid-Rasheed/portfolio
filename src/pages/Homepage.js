@@ -1,10 +1,8 @@
 
 import React from "react"
-
-import { Link } from "react-router-dom"
+import {  Link } from "@reach/router";
 import { Container, Row, Col, Button } from "react-bootstrap"
-// import TwitterIcon from "@material-ui/icons/Twitter"
-// import LinkedInIcon from "@material-ui/icons/LinkedIn"
+import Navbarpage from '../Components/Navbarpage'
 
 // xs (for phones)
 // sm (for tablets)
@@ -14,6 +12,7 @@ import { Container, Row, Col, Button } from "react-bootstrap"
 function Homepage() {
   return (
     <div>
+      <Navbarpage />
       <Container>
         <Row>
           <Col xs={12} md={7} sm={12} lg={7} className="first-col">
